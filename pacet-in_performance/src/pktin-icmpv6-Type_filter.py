@@ -23,7 +23,7 @@ class MLDFilter(PacketInFilterBase):
         icmpv6.MLD_LISTENER_QUERY,
         icmpv6.MLD_LISTENER_REPOR,
         icmpv6.MLD_LISTENER_DONE,
-        142
+        icmpv6.MLDV2_LISTENER_REPORT
     ]
 
     def filter(self, pkt):
